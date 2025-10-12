@@ -1,0 +1,16 @@
+About us -> /en/about-us
+Newsroom -> /en/news
+Career -> /en/karriere
+Contact -> /en/contact
+Biomass -> /en/biomass
+Energy from Waste -> /en/energy-from-waste
+Sewage Sludge -> /en/sewage-sludge
+References -> /en/references
+Zu den Stellenausschreibungen -> #c924
+Kaufmännischer Projektleiter (m/w/d) -> /en/karriere/kaufmaennischer-projektleiter
+Ausbildung zum Technischen Produktdesigner (m/w/d) -> /en/ausbildung
+Fachprojektleiter (m/w/d) -> /en/karriere/fachprojektleiter
+SAP FI Berater (m/w/d) -> /en/karriere/sap-fi-berater
+Terminplaner/Scheduler (m/w/d) -> /en/karriere/terminplaner/scheduler
+Mehr erfahren -> /en/karriere/der-einstieg
+Mitarbeiterstatements -> /en/karriere/mitarbeiterstatements

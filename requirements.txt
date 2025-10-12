@@ -1,0 +1,34 @@
+# Job Scraper Requirements - OpenAI Agents SDK Version
+
+# OpenAI Agents SDK - THE FUCKING AGENTS SDK
+openai-agents>=0.1.0
+
+# OpenAI Python Client (required by agents SDK)
+openai>=1.50.0
+
+# Web automation
+playwright>=1.40.0
+
+# HTML parsing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Fuzzy string matching
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.21.0
+
+# HTTP requests
+aiohttp>=3.8.0
+requests>=2.31.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Async support
+asyncio>=3.4.3
+
+# URL parsing and manipulation
+urllib3>=2.0.0
+
+# Logging
+colorlog>=6.7.0
