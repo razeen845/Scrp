@@ -5,6 +5,7 @@ Web Navigation Tool - Playwright-based navigation for OpenAI Agents SDK
 import asyncio
 from typing import Dict, Any, Optional
 from playwright.async_api import async_playwright, Browser, BrowserContext, Page
+from playwright_stealth import stealth_async
 from utils.logger import setup_logger
 
 logger = setup_logger(__name__)
@@ -43,6 +44,7 @@ class WebNavigationTool:
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120 Safari/537.36"
             })
 
+            await stealth_async(self.page)
             
             logger.info("Web Navigation Tool initialized successfully")
             

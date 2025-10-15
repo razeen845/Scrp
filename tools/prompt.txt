@@ -1,0 +1,16 @@
+Return JSON with this EXACT structure:
+{{
+  "strategy": "iframe_navigation" | "use_search_form" | "extract_current_page" | "navigate_to_link" | "scroll_and_extract",
+  "ats_system": "workday" | "greenhouse" | "lever" | "icims" | "taleo" | "smartrecruiters" | "custom" | null,
+  "confidence": 0-100,
+  "reasoning": "detailed explanation of why you chose this strategy",
+  "execution_plan": {{
+    "iframe_index": 0 or null,
+    "iframe_src": "url" or null,
+    "search_input_selector": "css selector" or null,
+    "target_link_url": "url" or null,
+    "needs_scrolling": true/false,
+    "scroll_amount": number or null
+  }},
+  "fallback_strategy": "what to try if primary fails"
+}}

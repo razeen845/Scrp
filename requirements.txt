@@ -8,6 +8,7 @@ openai>=1.50.0
 
 # Web automation
 playwright>=1.40.0
+playwright-stealth
 
 # HTML parsing
 beautifulsoup4>=4.12.0

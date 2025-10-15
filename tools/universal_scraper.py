@@ -114,7 +114,7 @@ Consider:
 7. Does content load dynamically (need scrolling)?
 8. **Pagination**: Are there pagination controls (Next, Page 2, 3, etc.)? If current page shows some jobs but has pagination, we may need to navigate to page 2 or click "Next"
 9. **Hidden Jobs**: If you see pagination or "Load More" buttons, there are likely more jobs on other pages
-10. If job listing is visible you should click on the job title linl of each relevant job to get the full job description.
+10. If job listing is visible you should click on the job title link of each relevant job to get the full job description.
 PAGINATION PRIORITY:
 - If you see job listings on current page BUT also see pagination (page 2, 3, next button, etc.), set needs_pagination=true
 - If page says "Showing 1-10 of 50 jobs", there are more jobs on other pages
